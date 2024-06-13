@@ -1,5 +1,4 @@
 <script lang="ts">
-// import MainLayout from '@/layouts/MainLayout.vue'
 import PostSecondary from '@/components/PostSecondary.vue'
 import PostMain from '@/components/PostMain.vue'
 import PostFeatured from '@/components/PostFeatured.vue'
@@ -14,7 +13,6 @@ function updateCategoryFromRouteParams(categoryIdParam: string | string[]) {
 
 export default {
   components: {
-    // MainLayout,
     PostSecondary,
     PostMain,
     PostFeatured,
@@ -33,18 +31,18 @@ export default {
 </script>
 
 <template>
-  <section>
-    <div class="container">
-      <div class="row">
-        <CategoryList />
-        <div class="postmain">
-          <PostMain />
-          <PostSecondary />
+  <MainLayout>
+    <section>
+      <div class="container">
+        <div class="row">
+          <CategoryList />
+          <div class="postmain">
+            <PostMain />
+            <PostSecondary />
+          </div>
+          <PostFeatured />
         </div>
-        <PostFeatured />
       </div>
-    </div>
-  </section>
-  <!-- <MainLayout>
-  </MainLayout> -->
+    </section>
+  </MainLayout>
 </template>

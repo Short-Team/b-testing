@@ -1,6 +1,9 @@
-<script lang="ts"></script>
+<script lang="ts">
+export default {}
+</script>
 
 <template>
+  <!-- Phrases-->
   <section>
     <div class="container">
       <div class="row">
@@ -10,4 +13,5 @@
       </div>
     </div>
   </section>
+  <!--Phrases-->
 </template>

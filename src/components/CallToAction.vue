@@ -1,3 +1,6 @@
+<script lang="ts">
+export default {}
+</script>
 <template>
   <div class="newsletter">
     <section class="container">

@@ -1,6 +1,8 @@
 <script lang="ts">
+// import MainLayout from '@/layout/MainLayout.vue'
 export default {}
 </script>
+
 <template>
   <section>
     <div class="container">
